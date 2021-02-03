@@ -1,5 +1,4 @@
 using System;
-using DotNet.Extensions;
 using NUnit.Framework;
 
 namespace DotNet.Extensions.Tests

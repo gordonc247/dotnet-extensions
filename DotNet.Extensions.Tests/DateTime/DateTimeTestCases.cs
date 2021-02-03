@@ -1,5 +1,4 @@
 using System;
-using DotNet.Extensions;
 
 namespace DotNet.Extensions.Tests
 {
