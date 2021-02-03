@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codefire.Extensions", "Codefire.Extensions\Codefire.Extensions.csproj", "{E7117A5C-A257-47FA-9203-FB99CBEA05B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codefire.Extensions.Tests", "Codefire.Extensions.Tests\Codefire.Extensions.Tests.csproj", "{06B9E31D-7B93-40D6-83DB-556CF2B648F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7117A5C-A257-47FA-9203-FB99CBEA05B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7117A5C-A257-47FA-9203-FB99CBEA05B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7117A5C-A257-47FA-9203-FB99CBEA05B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7117A5C-A257-47FA-9203-FB99CBEA05B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B9E31D-7B93-40D6-83DB-556CF2B648F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B9E31D-7B93-40D6-83DB-556CF2B648F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B9E31D-7B93-40D6-83DB-556CF2B648F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B9E31D-7B93-40D6-83DB-556CF2B648F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09436DCF-8F9B-419C-8EC3-090B59FD194E}
+	EndGlobalSection
+EndGlobal
