@@ -23,7 +23,7 @@ namespace DotNet.Extensions {
             return true;
         }
 
-        public static object ChangeType(object value, Type type)
+        public static object ChangeType(this object value, Type type)
         {
             if (value == null) return null;
 
