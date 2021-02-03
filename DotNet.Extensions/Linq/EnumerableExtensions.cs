@@ -12,8 +12,7 @@ namespace DotNet.Extensions
             return criteria?.Apply(source.AsQueryable()).AsEnumerable();
         }
 
-        public static IEnumerable<TEntity> Paged<TEntity>(this IEnumerable<TEntity> source, int pageNumber, int pageSize)
-            where TEntity : class
+        public static IEnumerable<T> Paged<T>(this IEnumerable<T> source, int pageNumber, int pageSize)
         {
             var skip = (pageNumber - 1) * pageSize;
 
